@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle at top, #1a1a2e, #000);
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 15px;
+    color: #00f7ff;
+    text-shadow: 0 0 10px #00f7ff;
+}
+
+#gameArea {
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+    border: 3px solid #00f7ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00f7ff;
+    overflow: hidden;
+    position: relative;
+    background: black;
+}
+
+#player {
+    transition: left 0.1s ease-in-out;
+}
+
+#enemy {
+    animation: glowEnemy 1s infinite alternate;
+}
+
+@keyframes glowEnemy {
+    from { filter: drop-shadow(0 0 5px red); }
+    to { filter: drop-shadow(0 0 20px red); }
+}
+
+#coin {
+    animation: rotateCoin 1s linear infinite;
+}
+
+@keyframes rotateCoin {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+}
