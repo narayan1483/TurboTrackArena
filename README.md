@@ -20,13 +20,17 @@ Dodge enemy cars, survive as long as possible & top the leaderboard!**
 ## 🎮 Game Preview
 
 ### 🏠 Home Screen
-![Home Screen](https://raw.githubusercontent.com/narayan1483/TurboTrackArena/master/web/images/logo.png)
+![Home Screen](https://raw.githubusercontent.com/narayan1483/TurboTrackArena/master/web/images/home.png)
+
+### 👤 Login Pages
+![Login Pages](https://raw.githubusercontent.com/narayan1483/TurboTrackArena/master/web/images/login.png)
+
 
 ### 📊 Player Dashboard
-> Upload `dashboard.png` to `web/images/` folder on GitHub to display here.
+![Player Dashboard](https://raw.githubusercontent.com/narayan1483/TurboTrackArena/master/web/images/insidelogin.png)
 
 ### 🕹️ Gameplay
-> Upload `game.png` to `web/images/` folder on GitHub to display here.
+![Gameplay Screen](https://raw.githubusercontent.com/narayan1483/TurboTrackArena/master/web/images/playgame.png)
 
 ---
 
